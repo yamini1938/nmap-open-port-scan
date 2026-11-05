@@ -32,15 +32,15 @@ Host: Windows 11 (24H2 to 25H2), 995 of 1000 ports closed, scan time 21.43 s.
 ## Screenshots
 **1. ipconfig (network details)**
 
-![ipconfig](screenshots/1_ipconfig.png)
+![ipconfig](1_ipconfig.png)
 
 **2. Zenmap scan output (start of scan)**
 
-![nmap output top](screenshots/2_nmap_output_top.png)
+![nmap output top](2_nmap_output_top.png)
 
 **3. Zenmap scan output (open ports, OS and SMB details)**
 
-![nmap output bottom](screenshots/3_nmap_output_bottom.png)
+![nmap output bottom](3_nmap_output_bottom.png)
 
 ## Security Risks
 - **135 / 139 / 445:** Windows RPC, NetBIOS and SMB are common attack targets (for example, WannaCry used SMB on unpatched systems).
@@ -58,7 +58,7 @@ Host: Windows 11 (24H2 to 25H2), 995 of 1000 ports closed, scan time 21.43 s.
 - `scan_results.txt` : full Nmap output
 - `Nmap_Open_Port_Discovery_Report.pdf` : detailed report
 - `interview_questions.md` : answers to the interview questions
-- `screenshots/` : ipconfig and Zenmap screenshots
+- `1_ipconfig.png`, `2_nmap_output_top.png`, `3_nmap_output_bottom.png` : screenshots
 
 ## Key Concepts
 Port scanning, TCP SYN scan, IP ranges, network reconnaissance, open ports, network security basics.
